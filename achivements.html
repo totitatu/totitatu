@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>totitatu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+
+            <a tabindex="1" id="skip_to_main" href="#main">Ship to main content</a>
+
+            <figure>
+                <img tabindex="2" id="avatar" src="img/axolotl.png" alt="An axolotl">
+                <figcaption tabindex="3">TOTITATU</figcaption>
+            </figure>
+
+            <div class="contact">
+                <p>Contact info</p>
+                <dl>
+                    <dt>Phone number:</dt>
+                    <dd tabindex="4">0123456789</dd>
+                    <dt>Email:</dt>
+                    <dd tabindex="5">emailme@gmail.com</dd>
+                </dl>
+            </div>
+
+            <nav id="page_nav">
+                <ul class="flex_container">
+                    <li class="flex_item"><a tabindex="6" href="index.html">ABOUT ME</a></li>
+                    <li class="flex_item"><a tabindex="7" id="current" href="achivements.html">ACHIVEMENTS</a></li>
+                    <li class="flex_item"><a tabindex="8" href="projects.html">PROJECTS</a></li>
+                </ul>
+            </nav>
+
+            <hr>
+        </header>
+        <main id="main">
+            <h1>ACHIVEMENTS</h1>
+            <p tabindex="9">Me achivements</p>
+            <hr>
+            <nav id="content_nav">
+                <p>Table of content</p>
+                <ol>
+                    <li><a tabindex="10" href="#edu_accomplishments">Educational accomplishments</a></li>
+                    <li><a tabindex="11" href="#work_accomplishments">Work accomplishments</a></li>
+                    <li><a tabindex="12" href="#others">Others</a></li>
+                </ol>
+            </nav>
+            <hr>
+            <h2 id="edu_accomplishments">Educational accomplishments</h2>
+            <ul>
+                <li tabindex="13">Good behaving student for 12 years.</li>
+                <li tabindex="14">Top 1 bullshiting person of the class for 5 years.</li>
+                <li tabindex="15">Winner of the Class Counter-Ctrike Championship held at NetCafe.</li>
+            </ul>
+            <hr>
+            <h2 id="work_accomplishments">Work accomplishments</h2>
+            <ul>
+                <li tabindex="16">Leading the team from a courses, top 4 achived out of 4 best team.</li>
+                <li tabindex="17">Most silence student of the class.</li>
+            </ul>
+            <hr>
+            <h2 id="others">Others accomplishments</h2>
+            <div class="carousel">
+                <button class="prev" type="button" onclick="prev()">&#10094;</button>
+                <button class="next" type="button" onclick="next()">&#10095;</button>
+                <img src="img/touch_grass.png" alt="Hand touching grass.">
+            </div>
+            <hr>
+        </main>
+        <footer>
+            <div class="contact">
+                <p>Contact info</p>
+                <dl>
+                        <dt>Phone number:</dt>
+                        <dd tabindex="30">0123456789</dd>
+                        <dt>Email:</dt>
+                        <dd tabindex="31">emailme@gmail.com</dd>
+                </dl>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
